@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6xU/O3vQVZTh5qoQVsu7OzW61sNyT2VZkHH9w1keQzTPsBl3Nw72JmnZJZbeu/meY9wEGtCoQUmVI64hf6eIEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jaime\\OneDrive\\Documentos\\programacion\\visual\\c#\\Convertidor\\Convertidor.iOS\\Convertidor.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jaime\\.nuget\\packages\\syncfusion.licensing\\20.1.0.59\\syncfusion.licensing.20.1.0.59.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\syncfusion.xamarin.core\\20.1.0.59\\syncfusion.xamarin.core.20.1.0.59.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\syncfusion.xamarin.sfnumericupdown\\20.1.0.59\\syncfusion.xamarin.sfnumericupdown.20.1.0.59.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

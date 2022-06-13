@@ -1,0 +1,1 @@
+C:\Users\jaime\OneDrive\Documentos\programacion\visual\c#\Convertidor\Convertidor.UWP\Convertidor.UWP.csproj;x64

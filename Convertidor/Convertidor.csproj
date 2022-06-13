@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\Angulo.png" />
+    <None Remove="Icons\Datos.png" />
+    <None Remove="Icons\Energia.png" />
+    <None Remove="Icons\Frecuencia.png" />
+    <None Remove="Icons\Longitud.png" />
+    <None Remove="Icons\Masa.png" />
+    <None Remove="Icons\Presion.png" />
+    <None Remove="Icons\Superficie.png" />
+    <None Remove="Icons\Temperatura.png" />
+    <None Remove="Icons\Tiempo.png" />
+    <None Remove="Icons\Velocidad.png" />
+    <None Remove="Icons\Volumen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Icons\Angulo.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Datos.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Energia.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Frecuencia.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Longitud.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Masa.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Presion.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Superficie.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Temperatura.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Tiempo.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Velocidad.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\Volumen.png">
+      <CustomToolNamespace>icon</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfNumericUpDown" Version="20.1.0.59" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\Energia.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Longitud.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Masa.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Presion.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Temperatura.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Velocidad.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Volumen.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfNumericUpDown.XForms;assembly=Syncfusion.SfNumericUpDown.XForms" 
+             x:Class="Convertidor.Views.Masa">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FFF">
+            <Picker x:Name="PickUnidades" Title="Elige las unidades de conversion ↨" TitleColor="#999"
+                    TextColor="#333" FontSize="20" BackgroundColor="#EEE"
+                    Margin="5,50,5,5" SelectedIndexChanged="PickUnidades_SelectedIndexChanged"/>
+            <syncfusion:SfNumericUpDown x:Name="NumericEntry" MaximumDecimalDigits="5" FontSize="20"
+                    Margin="5,5,5,10" BackgroundColor="#EEE" TextColor="#333"/>
+            <Button Text="Calcular" FontSize="25" FontAttributes="Bold" CornerRadius="45" 
+            Margin="50,10,50,50" Clicked="Button_Clicked"  BackgroundColor="#FFF"
+                    TextColor="#000" BorderWidth="1" BorderColor="#EEE"/>
+            <Frame BackgroundColor="#EEE" Padding="10,5,10,5" Margin="5,0,5,0" CornerRadius="10">
+                <Label x:Name="lblResultado" Text="0.0" TextColor="#333" FontAttributes="Bold" 
+                       FontSize="45" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" Padding="0,0,15,0"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
