@@ -5,12 +5,12 @@
              x:Class="Convertidor.Views.Energia">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#FFF" Padding="10,10">
-            <Picker x:Name="PickUnidades" Title="Elige las unidades de conversion ↨" TitleColor="#999"
+            <Picker x:Name="PickUnidades" Title="Elige la unidad para convertir" TitleColor="#999"
                     TextColor="#333" FontSize="20" BackgroundColor="#EEE"
                     Margin="5,50,5,5" SelectedIndexChanged="PickUnidades_SelectedIndexChanged"/>
             <syncfusion:SfNumericUpDown x:Name="NumericEntry" MaximumDecimalDigits="5" FontSize="20"
                     Margin="5,5,5,10" BackgroundColor="#EEE" TextColor="#333"/>
-            <Picker x:Name="PickUnidades2" Title="Elige las unidades de conversion ↨" TitleColor="#999"
+            <Picker x:Name="PickUnidades2" Title="Elige la unidad a convertir" TitleColor="#999"
                     TextColor="#333" FontSize="20" BackgroundColor="#EEE"
                     Margin="5,50,5,5" SelectedIndexChanged="PickUnidades2_SelectedIndexChanged"/>
             <Button Text="Calcular" FontSize="25" FontAttributes="Bold" CornerRadius="45" 
