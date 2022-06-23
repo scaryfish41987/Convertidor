@@ -58,7 +58,7 @@ namespace Convertidor.Views
                     switch (conversion2)
                     {
                         case "Litro":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Mililitro":
@@ -107,7 +107,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Mililitro":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Metro Cubico":
@@ -156,7 +156,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Metro Cubico":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Pie Cubico":
@@ -205,7 +205,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Pie Cubico":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Pulgada Cubica":
@@ -254,7 +254,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Pulgada Cubica":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Onza liquida estadounidense":
@@ -303,7 +303,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Onza liquida estadounidense":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Galón estadounidense":
@@ -352,7 +352,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Galón estadounidense":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         default:

@@ -96,7 +96,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jaime\OneDrive\Documentos\programacion\visual\c#\Convertidor\Convertidor\bin\Debug\netstandard2.0\Convertidor.dll">
       <PackagePath>Convertidor.dll</PackagePath>
-      <Modified>2022-06-17T19:12:46.163</Modified>
+      <Modified>2022-06-19T03:37:34.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jaime\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>

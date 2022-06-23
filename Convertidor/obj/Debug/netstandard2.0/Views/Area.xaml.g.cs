@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Convertidor.Views.Presion.xaml", "Views/Presion.xaml", typeof(global::Convertidor.Views.Presion))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Convertidor.Views.Area.xaml", "Views/Area.xaml", typeof(global::Convertidor.Views.Area))]
 
 namespace Convertidor.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Presion.xaml")]
-    public partial class Presion : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Area.xaml")]
+    public partial class Area : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Picker PickUnidades;
@@ -30,7 +30,7 @@ namespace Convertidor.Views {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Presion));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Area));
             PickUnidades = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "PickUnidades");
             NumericEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfNumericUpDown.XForms.SfNumericUpDown>(this, "NumericEntry");
             PickUnidades2 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "PickUnidades2");

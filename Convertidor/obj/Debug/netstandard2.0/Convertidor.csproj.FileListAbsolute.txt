@@ -25,3 +25,5 @@ C:\Users\jaime\OneDrive\Documentos\programacion\visual\c#\Convertidor\Convertido
 C:\Users\jaime\OneDrive\Documentos\programacion\visual\c#\Convertidor\Convertidor\obj\Debug\netstandard2.0\Views\Presion.xaml.g.cs
 C:\Users\jaime\OneDrive\Documentos\programacion\visual\c#\Convertidor\Convertidor\obj\Debug\netstandard2.0\Views\Velocidad.xaml.g.cs
 C:\Users\jaime\OneDrive\Documentos\programacion\visual\c#\Convertidor\Convertidor\obj\Debug\netstandard2.0\Views\Volumen.xaml.g.cs
+C:\Users\jaime\OneDrive\Documentos\programacion\visual\c#\Convertidor\Convertidor\obj\Debug\netstandard2.0\Views\Area.xaml.g.cs
+C:\Users\jaime\OneDrive\Documentos\programacion\visual\c#\Convertidor\Convertidor\obj\Debug\netstandard2.0\Views\Tiempo.xaml.g.cs

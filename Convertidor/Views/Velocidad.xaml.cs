@@ -25,13 +25,13 @@ namespace Convertidor.Views
             PickUnidades.Items.Add("Milla por Hora");
             PickUnidades.Items.Add("Pie por Segundo");
             PickUnidades.Items.Add("Metro por Segundo");
-            PickUnidades.Items.Add("Kilometro por Hora");
+            PickUnidades.Items.Add("Kilómetro por Hora");
             PickUnidades.Items.Add("Nudo");
     
             PickUnidades2.Items.Add("Milla por Hora");
             PickUnidades2.Items.Add("Pie por Segundo");
             PickUnidades2.Items.Add("Metro por Segundo");
-            PickUnidades2.Items.Add("Kilometro por Hora");
+            PickUnidades2.Items.Add("Kilómetro por Hora");
             PickUnidades2.Items.Add("Nudo");
         }
 
@@ -56,7 +56,7 @@ namespace Convertidor.Views
                     switch (conversion2)
                     {
                         case "Milla por Hora":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Pie por Segundo":
@@ -69,7 +69,7 @@ namespace Convertidor.Views
                             lblResultado.Text = Convert.ToString(Math.Round(Ms, 5)) + " m/s";
                             break;
 
-                        case "Kilometro por Hora":
+                        case "Kilómetro por Hora":
                             Kmh = Mh * 1.609;
                             lblResultado.Text = Convert.ToString(Math.Round(Kmh, 5)) + " km/h";
                             break;
@@ -95,7 +95,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Pie por Segundo":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Metro por Segundo":
@@ -103,7 +103,7 @@ namespace Convertidor.Views
                             lblResultado.Text = Convert.ToString(Math.Round(Ms, 5)) + " m/s";
                             break;
 
-                        case "Kilometro por Hora":
+                        case "Kilómetro por Hora":
                             Kmh = Ps * 1.097;
                             lblResultado.Text = Convert.ToString(Math.Round(Kmh, 5)) + " km/h";
                             break;
@@ -134,10 +134,10 @@ namespace Convertidor.Views
                             break;
 
                         case "Metro por Segundo":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
-                        case "Kilometro por Hora":
+                        case "Kilómetro por Hora":
                             Kmh = Ms * 3.6;
                             lblResultado.Text = Convert.ToString(Math.Round(Kmh, 5)) + " km/h";
                             break;
@@ -153,7 +153,7 @@ namespace Convertidor.Views
                     }
                     break;
 
-                case "Kilometro por Hora":
+                case "Kilómetro por Hora":
                     Kmh = Convert.ToDouble(NumericEntry.Value);
                     switch(conversion2)
                     {
@@ -172,8 +172,8 @@ namespace Convertidor.Views
                             lblResultado.Text = Convert.ToString(Math.Round(Ms, 5)) + " m/s";
                             break;
 
-                        case "Kilometro por Hora":
-                            lblResultado.Text = "Elige otra unidad";
+                        case "Kilómetro por Hora":
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Nudo":
@@ -206,13 +206,13 @@ namespace Convertidor.Views
                             lblResultado.Text = Convert.ToString(Math.Round(Ms, 5)) + " m/s";
                             break;
 
-                        case "Kilometro por Hora":
+                        case "Kilómetro por Hora":
                             Kmh = N * 1.852;
                             lblResultado.Text = Convert.ToString(Math.Round(Kmh, 5)) + " km/h";
                             break;
 
                         case "Nudo":
-                            lblResultado.Text = "Elige otra unidad ";
+                            lblResultado.Text = "Escoge otra unidad ";
                             break;
 
                         default:
@@ -222,7 +222,7 @@ namespace Convertidor.Views
                     break;
 
                 default:
-                    lblResultado.Text = "Elige una unidad para convertir";
+                    lblResultado.Text = "Elige una unidad";
                     break;
             }
         }

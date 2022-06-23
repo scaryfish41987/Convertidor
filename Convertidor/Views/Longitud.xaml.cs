@@ -14,7 +14,7 @@ namespace Convertidor.Views
         {
             InitializeComponent();
             Title = "Longitud";
-            PickUnidades.Items.Add("Kilometro");
+            PickUnidades.Items.Add("Kilómetro");
             PickUnidades.Items.Add("Metro");
             PickUnidades.Items.Add("Centimetro");
             PickUnidades.Items.Add("Milimetro");
@@ -23,7 +23,7 @@ namespace Convertidor.Views
             PickUnidades.Items.Add("Pie");
             PickUnidades.Items.Add("Pulgada");
 
-            PickUnidades2.Items.Add("Kilometro");
+            PickUnidades2.Items.Add("Kilómetro");
             PickUnidades2.Items.Add("Metro");
             PickUnidades2.Items.Add("Centimetro");
             PickUnidades2.Items.Add("Milimetro");
@@ -49,11 +49,11 @@ namespace Convertidor.Views
         {
             switch (conversion)
             {
-                case "Kilometro":
+                case "Kilómetro":
                     Km = Convert.ToDouble(NumericEntry.Value);
                     switch (conversion2)
                     {
-                        case "Kilometro":
+                        case "Kilómetro":
                             lblResultado.Text = "Escoge otra unidad";
                             break;
 
@@ -93,7 +93,7 @@ namespace Convertidor.Views
                             break;
 
                         default:
-                            lblResultado.Text = "Escoge una unidad";
+                            lblResultado.Text = "Elige una unidad";
                             break;
                     }
                     break;
@@ -102,7 +102,7 @@ namespace Convertidor.Views
                     M = Convert.ToDouble(NumericEntry.Value);
                     switch (conversion2)
                     {
-                        case "Kilometro":
+                        case "Kilómetro":
                             Km = M / 1000;
                             lblResultado.Text = Convert.ToString(Math.Round(Km, 5)) + " km";
                             break;
@@ -142,7 +142,7 @@ namespace Convertidor.Views
                             break;
 
                         default:
-                            lblResultado.Text = "Escoge una unidad";
+                            lblResultado.Text = "Elige una unidad";
                             break;
                     }
                     break;
@@ -151,7 +151,7 @@ namespace Convertidor.Views
                     Cm = Convert.ToDouble(NumericEntry.Value);
                     switch (conversion2)
                     {
-                        case "Kilometro":
+                        case "Kilómetro":
                             Km = Cm / 100000;
                             lblResultado.Text = Convert.ToString(Math.Round(Km, 5)) + " km";
                             break;
@@ -191,7 +191,7 @@ namespace Convertidor.Views
                             break;
 
                         default:
-                            lblResultado.Text = "Escoge una unidad";
+                            lblResultado.Text = "Elige una unidad";
                             break;
                     }
                     break;
@@ -200,7 +200,7 @@ namespace Convertidor.Views
                     Mm = Convert.ToDouble(NumericEntry.Value);
                     switch (conversion2)
                     {
-                        case "Kilometro":
+                        case "Kilómetro":
                             Km = Mm / 1000000;
                             lblResultado.Text = Convert.ToString(Math.Round(Km, 5)) + " km";
                             break;
@@ -240,7 +240,7 @@ namespace Convertidor.Views
                             break;
 
                         default:
-                            lblResultado.Text = "Escoge una unidad";
+                            lblResultado.Text = "Elige una unidad";
                             break;
                     }
                     break;
@@ -249,7 +249,7 @@ namespace Convertidor.Views
                     Mi = Convert.ToDouble(NumericEntry.Value);
                     switch (conversion2)
                     {
-                        case "Kilometro":
+                        case "Kilómetro":
                             Km = Mi * 1.609;
                             lblResultado.Text = Convert.ToString(Math.Round(Km, 5)) + " km";
                             break;
@@ -289,7 +289,7 @@ namespace Convertidor.Views
                             break;
 
                         default:
-                            lblResultado.Text = "Escoge una unidad";
+                            lblResultado.Text = "Elige una unidad";
                             break;
                     }
                     break;
@@ -298,7 +298,7 @@ namespace Convertidor.Views
                     Yd = Convert.ToDouble(NumericEntry.Value);
                     switch (conversion2)
                     {
-                        case "Kilometro":
+                        case "Kilómetro":
                             Km = Yd / 1093.61;
                             lblResultado.Text = Convert.ToString(Math.Round(Km, 5)) + " km";
                             break;
@@ -338,7 +338,7 @@ namespace Convertidor.Views
                             break;
 
                         default:
-                            lblResultado.Text = "Escoge una unidad";
+                            lblResultado.Text = "Elige una unidad";
                             break;
                     }
                     break;
@@ -347,7 +347,7 @@ namespace Convertidor.Views
                     Ft = Convert.ToDouble(NumericEntry.Value);
                     switch (conversion2)
                     {
-                        case "Kilometro":
+                        case "Kilómetro":
                             Km = Ft / 3280.84;
                             lblResultado.Text = Convert.ToString(Math.Round(Km, 5)) + " km";
                             break;
@@ -387,7 +387,7 @@ namespace Convertidor.Views
                             break;
 
                         default:
-                            lblResultado.Text = "Escoge una unidad";
+                            lblResultado.Text = "Elige una unidad";
                             break;
                     }
                     break;
@@ -396,7 +396,7 @@ namespace Convertidor.Views
                     In = Convert.ToDouble(NumericEntry.Value);
                     switch (conversion2)
                     {
-                        case "Kilometro":
+                        case "Kilómetro":
                             Km = In / 39370.1;
                             lblResultado.Text = Convert.ToString(Math.Round(Km, 5)) + " km";
                             break;
@@ -436,13 +436,13 @@ namespace Convertidor.Views
                             break;
 
                         default:
-                            lblResultado.Text = "Escoge una unidad";
+                            lblResultado.Text = "Elige una unidad";
                             break;
                     }
                     break;
 
                 default:
-                    lblResultado.Text = "Escoge una unidad";
+                    lblResultado.Text = "Elige una unidad";
                     break;
             }
         }

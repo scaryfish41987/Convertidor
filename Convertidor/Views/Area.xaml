@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:syncfusion="clr-namespace:Syncfusion.SfNumericUpDown.XForms;assembly=Syncfusion.SfNumericUpDown.XForms" 
-             x:Class="Convertidor.Views.Volumen">
+             x:Class="Convertidor.Views.Area">
     <ContentPage.Content>
         <StackLayout BackgroundColor="#FFF" Padding="10,10">
             <Frame BackgroundColor="#EEE" Margin="5,50,5,5" Padding="15,5" CornerRadius="25" BorderColor="#333" >

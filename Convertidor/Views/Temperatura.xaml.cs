@@ -51,7 +51,7 @@ namespace Convertidor.Views
                     switch (conversion2)
                     {
                         case "Celsius":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Fahrenheit":
@@ -80,7 +80,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Fahrenheit":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         case "Kelvin":
@@ -109,7 +109,7 @@ namespace Convertidor.Views
                             break;
 
                         case "Kelvin":
-                            lblResultado.Text = "Elige otra unidad";
+                            lblResultado.Text = "Escoge otra unidad";
                             break;
 
                         default:
@@ -119,7 +119,7 @@ namespace Convertidor.Views
                     break;
 
                 default:
-                    lblResultado.Text = "Elige una opcion";
+                    lblResultado.Text = "Elige una unidad";
                     break;
             }
 
