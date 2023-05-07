@@ -1,17 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "e+S/zqdfMLynaz9ezmkFKYS+748AkR8Em7eswqNR4d8BmIyJKbBE0Vrf4ly1gZuMSWBWYDrzCi7zhopdJaKm7g==",
+  "dgSpecHash": "Ahva1co4MasXpNzZlqUpUJjIo9msFRx7oldkwHM5R+r9QYxSyqyXVJVx1z1cOECGQr85EMlAaL7jg6EX5p1lYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaime\\OneDrive\\Documentos\\programacion\\visual\\c#\\Convertidor\\Convertidor\\Convertidor.csproj",
+  "projectFilePath": "/Users/jaimemendivil/Projects/Convertidor/Convertidor/Convertidor.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\syncfusion.licensing\\20.1.0.59\\syncfusion.licensing.20.1.0.59.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\syncfusion.xamarin.core\\20.1.0.59\\syncfusion.xamarin.core.20.1.0.59.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\syncfusion.xamarin.sfnumericupdown\\20.1.0.59\\syncfusion.xamarin.sfnumericupdown.20.1.0.59.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\jaime\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "/Users/jaimemendivil/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/skiasharp/1.68.0/skiasharp.1.68.0.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/skiasharp.svg/1.60.0/skiasharp.svg.1.60.0.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/syncfusion.licensing/21.2.3/syncfusion.licensing.21.2.3.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/syncfusion.xamarin.core/21.2.3/syncfusion.xamarin.core.21.2.3.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/syncfusion.xamarin.sfnumericupdown/21.2.3/syncfusion.xamarin.sfnumericupdown.21.2.3.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.essentials/1.7.5/xamarin.essentials.1.7.5.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.ffimageloading.svg/2.4.11.982/xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.ffimageloading.svg.forms/2.4.11.982/xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.ffimageloading.transformations/2.4.11.982/xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.forms/5.0.0.2578/xamarin.forms.5.0.0.2578.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.forms.skeleton/2.0.0/xamarin.forms.skeleton.2.0.0.nupkg.sha512",
+    "/Users/jaimemendivil/.nuget/packages/xamarin.forms.svg/1.0.3/xamarin.forms.svg.1.0.3.nupkg.sha512"
   ],
   "logs": []
 }
